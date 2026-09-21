@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text;
+  }
+}
+
+/* Leaflet Map overrides for minimal style */
+.leaflet-container {
+  background: #f0f0f0; /* Light background for the map itself */
+}
+.leaflet-popup-content-wrapper {
+  border-radius: 4px;
+}
